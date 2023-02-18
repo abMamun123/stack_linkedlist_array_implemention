@@ -61,22 +61,8 @@ public:
 };
 int main()
 {
-    My_stack<double> st;
-    st.push(10.8);
-    st.top();
-    st.push(20.44);
-    st.top();
-    st.push(30.22);
-    st.top();
-    cout << "pop start\n";
-    st.pop();
-    st.top();
-    st.pop();
-    st.top();
-    st.pop();
-    st.top();
-    cout << "push start\n";
-    st.push(10.88);
-    st.top();
+    My_stack<string>q;
+    q.push("mamun");
+    q.top();
     return 0;
 }

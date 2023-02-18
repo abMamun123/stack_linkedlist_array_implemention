@@ -19,7 +19,6 @@ int main()
         {
             if (a.empty())
             {
-                cout << "Invalid\n";
                 return 0;
             }
             else if (a.top() == '(' and s[i] == ')')
